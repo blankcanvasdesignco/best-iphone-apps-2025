@@ -1,5 +1,46 @@
 import { useState } from "react";
 import "./App.css";
+import screen1 from "./assets/screen1.jpg";
+import screen2 from "./assets/screen2.jpg";
+import screen3 from "./assets/screen3.jpg";
+import screen4 from "./assets/screen4.jpg";
+import panoslice1 from "./assets/panoslice/panoslice1.webp";
+import panoslice2 from "./assets/panoslice/panoslice2.webp";
+import panoslice3 from "./assets/panoslice/panoslice3.webp";
+import panoslice4 from "./assets/panoslice/panoslice4.webp";
+import panoslice5 from "./assets/panoslice/panoslice5.webp";
+import panoslice6 from "./assets/panoslice/panoslice6.webp";
+import panoslice7 from "./assets/panoslice/panoslice7.webp";
+import panoslice8 from "./assets/panoslice/panoslice8.webp";
+import swipekit1 from "./assets/swipekit/swipekit1.webp";
+import swipekit2 from "./assets/swipekit/swipekit2.webp";
+import swipekit3 from "./assets/swipekit/swipekit3.webp";
+import swipekit4 from "./assets/swipekit/swipekit4.webp";
+import swipekit5 from "./assets/swipekit/swipekit5.webp";
+import rene1 from "./assets/rene/rene1.webp";
+import rene2 from "./assets/rene/rene2.webp";
+import rene3 from "./assets/rene/rene3.webp";
+import rene4 from "./assets/rene/rene4.webp";
+import rene5 from "./assets/rene/rene5.webp";
+import lek1 from "./assets/lek/lek1.webp";
+import lek2 from "./assets/lek/lek2.webp";
+import lek3 from "./assets/lek/lek3.webp";
+import lek4 from "./assets/lek/lek4.webp";
+import lek5 from "./assets/lek/lek5.webp";
+import lek6 from "./assets/lek/lek6.webp";
+import lek7 from "./assets/lek/lek7.webp";
+import lono1 from "./assets/lono/lono1.webp";
+import lono2 from "./assets/lono/lono2.webp";
+import lono3 from "./assets/lono/lono3.webp";
+import lono4 from "./assets/lono/lono4.webp";
+import lono5 from "./assets/lono/lono5.webp";
+import lono6 from "./assets/lono/lono6.webp";
+import lono7 from "./assets/lono/lono7.webp";
+import tawk1 from "./assets/tawk/tawk1.webp";
+import tawk2 from "./assets/tawk/tawk2.webp";
+import tawk3 from "./assets/tawk/tawk3.webp";
+import tawk4 from "./assets/tawk/tawk4.webp";
+import tawk5 from "./assets/tawk/tawk5.webp";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,10 +68,10 @@ function App() {
         <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
           <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
             {[
-              { src: "/screen1.jpg", alt: "Feature 1" },
-              { src: "/screen2.jpg", alt: "Feature 2" },
-              { src: "/screen3.jpg", alt: "Feature 3" },
-              { src: "/screen4.jpg", alt: "Feature 4" },
+              { src: screen1, alt: "Feature 1" },
+              { src: screen2, alt: "Feature 2" },
+              { src: screen3, alt: "Feature 3" },
+              { src: screen4, alt: "Feature 4" },
               // Add more images here as needed
             ].map((img, idx) => (
               <div
@@ -84,14 +125,14 @@ function App() {
           <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
             <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
               {[
-                { src: "/panoslice/panoslice1.webp", alt: "Feature 1" },
-                { src: "/panoslice/panoslice2.webp", alt: "Feature 2" },
-                { src: "/panoslice/panoslice3.webp", alt: "Feature 3" },
-                { src: "/panoslice/panoslice4.webp", alt: "Feature 4" },
-                { src: "/panoslice/panoslice5.webp", alt: "Feature 5" },
-                { src: "/panoslice/panoslice6.webp", alt: "Feature 6" },
-                { src: "/panoslice/panoslice7.webp", alt: "Feature 7" },
-                { src: "/panoslice/panoslice8.webp", alt: "Feature 8" },
+                { src: panoslice1, alt: "Feature 1" },
+                { src: panoslice2, alt: "Feature 2" },
+                { src: panoslice3, alt: "Feature 3" },
+                { src: panoslice4, alt: "Feature 4" },
+                { src: panoslice5, alt: "Feature 5" },
+                { src: panoslice6, alt: "Feature 6" },
+                { src: panoslice7, alt: "Feature 7" },
+                { src: panoslice8, alt: "Feature 8" },
                 // Add more images here as needed
               ].map((img, idx) => (
                 <div
@@ -142,11 +183,11 @@ function App() {
           <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
             <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
               {[
-                { src: "/swipekit/swipekit1.webp", alt: "Feature 1" },
-                { src: "/swipekit/swipekit2.webp", alt: "Feature 2" },
-                { src: "/swipekit/swipekit3.webp", alt: "Feature 3" },
-                { src: "/swipekit/swipekit4.webp", alt: "Feature 4" },
-                { src: "/swipekit/swipekit5.webp", alt: "Feature 5" },
+                { src: swipekit1, alt: "Feature 1" },
+                { src: swipekit2, alt: "Feature 2" },
+                { src: swipekit3, alt: "Feature 3" },
+                { src: swipekit4, alt: "Feature 4" },
+                { src: swipekit5, alt: "Feature 5" },
 
                 // Add more images here as needed
               ].map((img, idx) => (
@@ -199,11 +240,11 @@ function App() {
           <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
             <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
               {[
-                { src: "/rene/rene1.webp", alt: "Feature 1" },
-                { src: "/rene/rene2.webp", alt: "Feature 2" },
-                { src: "/rene/rene3.webp", alt: "Feature 3" },
-                { src: "/rene/rene4.webp", alt: "Feature 4" },
-                { src: "/rene/rene5.webp", alt: "Feature 5" },
+                { src: rene1, alt: "Feature 1" },
+                { src: rene2, alt: "Feature 2" },
+                { src: rene3, alt: "Feature 3" },
+                { src: rene4, alt: "Feature 4" },
+                { src: rene5, alt: "Feature 5" },
                 // Add more images here as needed
               ].map((img, idx) => (
                 <div
@@ -254,13 +295,13 @@ function App() {
           <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
             <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
               {[
-                { src: "/lek/lek1.webp", alt: "Feature 1" },
-                { src: "/lek/lek2.webp", alt: "Feature 2" },
-                { src: "/lek/lek3.webp", alt: "Feature 3" },
-                { src: "/lek/lek4.webp", alt: "Feature 4" },
-                { src: "/lek/lek5.webp", alt: "Feature 5" },
-                { src: "/lek/lek6.webp", alt: "Feature 6" },
-                { src: "/lek/lek7.webp", alt: "Feature 7" },
+                { src: lek1, alt: "Feature 1" },
+                { src: lek2, alt: "Feature 2" },
+                { src: lek3, alt: "Feature 3" },
+                { src: lek4, alt: "Feature 4" },
+                { src: lek5, alt: "Feature 5" },
+                { src: lek6, alt: "Feature 6" },
+                { src: lek7, alt: "Feature 7" },
                 // Add more images here as needed
               ].map((img, idx) => (
                 <div
@@ -313,13 +354,13 @@ function App() {
           <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
             <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
               {[
-                { src: "/lono/lono1.webp", alt: "Feature 1" },
-                { src: "/lono/lono2.webp", alt: "Feature 2" },
-                { src: "/lono/lono3.webp", alt: "Feature 3" },
-                { src: "/lono/lono4.webp", alt: "Feature 4" },
-                { src: "/lono/lono5.webp", alt: "Feature 5" },
-                { src: "/lono/lono6.webp", alt: "Feature 6" },
-                { src: "/lono/lono7.webp", alt: "Feature 7" },
+                { src: lono1, alt: "Feature 1" },
+                { src: lono2, alt: "Feature 2" },
+                { src: lono3, alt: "Feature 3" },
+                { src: lono4, alt: "Feature 4" },
+                { src: lono5, alt: "Feature 5" },
+                { src: lono6, alt: "Feature 6" },
+                { src: lono7, alt: "Feature 7" },
                 // Add more images here as needed
               ].map((img, idx) => (
                 <div
@@ -371,11 +412,11 @@ function App() {
           <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
             <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
               {[
-                { src: "/tawk/tawk1.webp", alt: "Feature 1" },
-                { src: "/tawk/tawk2.webp", alt: "Feature 2" },
-                { src: "/tawk/tawk3.webp", alt: "Feature 3" },
-                { src: "/tawk/tawk4.webp", alt: "Feature 4" },
-                { src: "/tawk/tawk5.webp", alt: "Feature 5" },
+                { src: tawk1, alt: "Feature 1" },
+                { src: tawk2, alt: "Feature 2" },
+                { src: tawk3, alt: "Feature 3" },
+                { src: tawk4, alt: "Feature 4" },
+                { src: tawk5, alt: "Feature 5" },
                 // Add more images here as needed
               ].map((img, idx) => (
                 <div
