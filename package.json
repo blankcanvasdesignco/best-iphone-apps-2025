@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
     "homepage": "https://blankcanvasdesignco.github.io/best-iphone-apps-2025/"
-
   },
   "dependencies": {
     "react": "^19.1.0",

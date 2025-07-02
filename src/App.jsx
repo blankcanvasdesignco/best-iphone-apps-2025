@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import apple_dl from "./assets/apple_dl.png";
 import screen1 from "./assets/screen1.jpg";
 import screen2 from "./assets/screen2.jpg";
 import screen3 from "./assets/screen3.jpg";
@@ -92,7 +93,7 @@ function App() {
       {/* App Store Button */}
       <div className="flex justify-center mb-20">
         <img
-          src="/apple_dl.png"
+          src={apple_dl}
           alt="Download on App Store"
           className="w-48 h-16 object-cover"
         />
@@ -159,7 +160,7 @@ function App() {
 
         <div className="flex justify-center my-12">
           <img
-            src="/apple_dl.png"
+            src={apple_dl}
             alt="Download on App Store"
             className="w-48 h-16 object-cover"
           />
@@ -216,7 +217,7 @@ function App() {
 
         <div className="flex justify-center my-12">
           <img
-            src="/apple_dl.png"
+            src={apple_dl}
             alt="Download on App Store"
             className="w-48 h-16 object-cover"
           />
@@ -271,7 +272,7 @@ function App() {
 
         <div className="flex justify-center my-12">
           <img
-            src="/apple_dl.png"
+            src={apple_dl}
             alt="Download on App Store"
             className="w-48 h-16 object-cover"
           />
@@ -330,7 +331,7 @@ function App() {
 
         <div className="flex justify-center my-12">
           <img
-            src="/apple_dl.png"
+            src={apple_dl}
             alt="Download on App Store"
             className="w-48 h-16 object-cover"
           />
@@ -388,7 +389,7 @@ function App() {
 
         <div className="flex justify-center my-12">
           <img
-            src="/apple_dl.png"
+            src={apple_dl}
             alt="Download on App Store"
             className="w-48 h-16 object-cover"
           />
@@ -445,7 +446,7 @@ function App() {
 
         <div className="flex justify-center my-12">
           <img
-            src="/apple_dl.png"
+            src={apple_dl}
             alt="Download on App Store"
             className="w-48 h-16 object-cover"
           />
