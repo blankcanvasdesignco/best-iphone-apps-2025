@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
-    "homepage": "https://blankcanvasdesignco.github.io/best-iphone-apps-2025/"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",

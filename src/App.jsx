@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import apple_dl from "./assets/apple_dl.png";
-import screen1 from "./assets/screen1.jpg";
+import screen1 from "./assets/screen1.png";
 import screen2 from "./assets/screen2.jpg";
 import screen3 from "./assets/screen3.jpg";
 import screen4 from "./assets/screen4.jpg";
