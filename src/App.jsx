@@ -173,7 +173,7 @@ function App() {
               href="https://apps.apple.com/app/panoslice-photo-swipe-collage/id1592547810"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg inline-block text-center"
+              className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
             >
               Get app
             </a>
@@ -270,7 +270,7 @@ function App() {
               href="https://apps.apple.com/in/app/swipekit-photo-collage-maker/id6745084550"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg inline-block text-center"
+              className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
             >
               Get app
             </a>
@@ -365,7 +365,7 @@ function App() {
               href="https://apps.apple.com/app/lono-collage-reels-maker/id1632742723"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg inline-block text-center"
+              className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
             >
               Get app
             </a>
@@ -463,7 +463,7 @@ function App() {
               href="https://apps.apple.com/app/rene-ai-filters-collage-edit/id6744745951"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg inline-block text-center"
+              className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
             >
               Get app
             </a>
@@ -557,7 +557,7 @@ function App() {
               href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg inline-block text-center"
+              className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
             >
               Get app
             </a>
@@ -654,7 +654,7 @@ function App() {
               href="https://apps.apple.com/app/tawk2-relationship-cards/id6738306118"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg inline-block text-center"
+              className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
             >
               Get app
             </a>
@@ -750,7 +750,7 @@ function App() {
               href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 md:mt-0 px-6 py-2 rounded-full border border-gray-500 text-lg inline-block text-center"
+              className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
             >
               Get app
             </a>
