@@ -436,7 +436,7 @@ function App() {
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
                 {/* #4 */}
-                <span className="text-2xl font-bold underline">#3</span>
+                <span className="text-2xl font-bold underline">#4</span>
                 {/* App Icon */}
                 <img
                   src={screen1}
