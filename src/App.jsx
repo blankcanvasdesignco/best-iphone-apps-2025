@@ -51,6 +51,12 @@ import tawk2 from "./assets/tawk/tawk2.webp";
 import tawk3 from "./assets/tawk/tawk3.webp";
 import tawk4 from "./assets/tawk/tawk4.webp";
 import tawk5 from "./assets/tawk/tawk5.webp";
+import panoslice_icon from "./assets/icons/panoslice_icon.png";
+import swipekit_icon from "./assets/icons/swipekit_icon.png";
+import lono_icon from "./assets/icons/lono_icon.png";
+import rene_icon from "./assets/icons/rene_icon.png";
+import tawk_icon from "./assets/icons/tawk_icon.png";
+import lek_icon from "./assets/icons/lek_icon.png";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -146,26 +152,49 @@ function App() {
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
                 {/* #1 */}
-                <span className="text-2xl font-bold underline">#1</span>
+                <span className="text-2xl font-bold">#1</span>
                 {/* App Icon */}
-                <img
-                  src={screen1}
-                  alt="Panoslice App Icon"
-                  className="w-16 h-16 rounded-2xl border border-gray-300"
-                />
+                <a
+                  href="https://apps.apple.com/app/panoslice-photo-swipe-collage/id1592547810"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                >
+                  <img
+                    src={panoslice_icon}
+                    alt="Panoslice App Icon"
+                    className="w-16 h-16 rounded-2xl border border-gray-300"
+                  />
+                </a>
               </div>
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
-                <span className="text-2xl font-bold underline">
-                  Panoslice: Photo Swipe Collage
-                </span>
-                <div className="flex items-center mt-1">
+                <a
+                  href="https://apps.apple.com/app/panoslice-photo-swipe-collage/id1592547810"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                >
+                  <span className="text-2xl font-bold">
+                    Panoslice: Photo Swipe Collage
+                  </span>
+                </a>
+                <a
+                  href="https://apps.apple.com/app/panoslice-photo-swipe-collage/id1592547810"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center mt-1 focus:outline-none"
+                  tabIndex={0}
+                  style={{ textDecoration: "none" }}
+                >
                   <span className="text-yellow-500 text-xl ml-1">★</span>
                   <span className="text-lg">4.5</span>
                   <span className="text-lg">(1.9k+)</span>
                   <span className="mx-2 text-lg">|</span>
                   <span className="text-lg">Photo & Video</span>
-                </div>
+                </a>
               </div>
             </div>
             {/* Get App Button */}
@@ -243,26 +272,46 @@ function App() {
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
                 {/* #2 */}
-                <span className="text-2xl font-bold underline">#2</span>
+                <span className="text-2xl font-bold">#2</span>
                 {/* App Icon */}
-                <img
-                  src={screen1}
-                  alt="Panoslice App Icon"
-                  className="w-16 h-16 rounded-2xl border border-gray-300"
-                />
+                <a
+                  href="https://apps.apple.com/in/app/swipekit-photo-collage-maker/id6745084550"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={swipekit_icon}
+                    alt="Swipekit App Icon"
+                    className="w-16 h-16 rounded-2xl border border-gray-300"
+                  />
+                </a>
               </div>
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
-                <span className="text-2xl font-bold underline">
-                  SwipeKit : Photo Collage Maker
-                </span>
-                <div className="flex items-center mt-1">
-                  <span className="text-yellow-500 text-xl ml-1">★</span>
-                  <span className="text-lg">5</span>
-                  <span className="text-lg">(10+)</span>
-                  <span className="mx-2 text-lg">|</span>
-                  <span className="text-lg">Photo & Video</span>
-                </div>
+                <a
+                  href="https://apps.apple.com/in/app/swipekit-photo-collage-maker/id6745084550"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                >
+                  <span className="text-2xl font-bold">
+                    SwipeKit : Photo Collage Maker
+                  </span>
+                </a>
+                <a
+                  href="https://apps.apple.com/in/app/swipekit-photo-collage-maker/id6745084550"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                >
+                  <div className="flex items-center mt-1">
+                    <span className="text-yellow-500 text-xl ml-1">★</span>
+                    <span className="text-lg">5</span>
+                    <span className="text-lg">(10+)</span>
+                    <span className="mx-2 text-lg">|</span>
+                    <span className="text-lg">Photo & Video</span>
+                  </div>
+                </a>
               </div>
             </div>
             {/* Get App Button */}
@@ -338,26 +387,50 @@ function App() {
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
                 {/* #3 */}
-                <span className="text-2xl font-bold underline">#3</span>
+                <span className="text-2xl font-bold">#3</span>
                 {/* App Icon */}
-                <img
-                  src={screen1}
-                  alt="Panoslice App Icon"
-                  className="w-16 h-16 rounded-2xl border border-gray-300"
-                />
+                <a
+                  href="https://apps.apple.com/app/lono-collage-reels-maker/id1632742723"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                >
+                  <img
+                    src={lono_icon}
+                    alt="Lono App Icon"
+                    className="w-16 h-16 rounded-2xl border border-gray-300"
+                  />
+                </a>
               </div>
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
-                <span className="text-2xl font-bold underline">
-                  Lono : collage & reels maker
-                </span>
-                <div className="flex items-center mt-1">
+                <a
+                  href="https://apps.apple.com/app/lono-collage-reels-maker/id1632742723"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                  style={{ textDecoration: "none" }}
+                >
+                  <span className="text-2xl font-bold">
+                    Lono : collage & reels maker
+                  </span>
+                </a>
+                <a
+                  href="https://apps.apple.com/app/lono-collage-reels-maker/id1632742723"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center mt-1 focus:outline-none"
+                  tabIndex={0}
+                  style={{ textDecoration: "none" }}
+                >
                   <span className="text-yellow-500 text-xl ml-1">★</span>
                   <span className="text-lg">4.4</span>
                   <span className="text-lg">(400+)</span>
                   <span className="mx-2 text-lg">|</span>
                   <span className="text-lg">Photo & Video</span>
-                </div>
+                </a>
               </div>
             </div>
             {/* Get App Button */}
@@ -436,26 +509,49 @@ function App() {
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
                 {/* #4 */}
-                <span className="text-2xl font-bold underline">#4</span>
+                <span className="text-2xl font-bold">#4</span>
                 {/* App Icon */}
-                <img
-                  src={screen1}
-                  alt="Panoslice App Icon"
-                  className="w-16 h-16 rounded-2xl border border-gray-300"
-                />
+                <a
+                  href="https://apps.apple.com/app/rene-ai-filters-collage-edit/id6744745951"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                >
+                  <img
+                    src={rene_icon}
+                    alt="Rene App Icon"
+                    className="w-16 h-16 rounded-2xl border border-gray-300"
+                  />
+                </a>
               </div>
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
-                <span className="text-2xl font-bold underline">
-                  Rene: AI Filters, Collage Edit
-                </span>
-                <div className="flex items-center mt-1">
+                <a
+                  href="https://apps.apple.com/app/rene-ai-filters-collage-edit/id6744745951"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                >
+                  <span className="text-2xl font-bold">
+                    Rene: AI Filters, Collage Edit
+                  </span>
+                </a>
+                <a
+                  href="https://apps.apple.com/app/rene-ai-filters-collage-edit/id6744745951"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center mt-1 focus:outline-none"
+                  tabIndex={0}
+                  style={{ textDecoration: "none" }}
+                >
                   <span className="text-yellow-500 text-xl ml-1">★</span>
                   <span className="text-lg">5</span>
                   <span className="text-lg">(10+)</span>
                   <span className="mx-2 text-lg">|</span>
                   <span className="text-lg">Photo & Video</span>
-                </div>
+                </a>
               </div>
             </div>
             {/* Get App Button */}
@@ -530,26 +626,53 @@ function App() {
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
                 {/* #5 */}
-                <span className="text-2xl font-bold underline">#5</span>
+                <span className="text-2xl font-bold">#5</span>
                 {/* App Icon */}
-                <img
-                  src={screen1}
-                  alt="Panoslice App Icon"
-                  className="w-16 h-16 rounded-2xl border border-gray-300"
-                />
+                <a
+                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  tabIndex={0}
+                  className="focus:outline-none"
+                  style={{ textDecoration: "none" }}
+                >
+                  <img
+                    src={rene_icon}
+                    alt="Parent 101 App Icon"
+                    className="w-16 h-16 rounded-2xl border border-gray-300"
+                  />
+                </a>
               </div>
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
-                <span className="text-2xl font-bold underline">
-                  Parent 101 : Parenting Tips
-                </span>
-                <div className="flex items-center mt-1">
-                  <span className="text-yellow-500 text-xl ml-1">★</span>
-                  <span className="text-lg">5</span>
-                  <span className="text-lg">(10+)</span>
-                  <span className="mx-2 text-lg">|</span>
-                  <span className="text-lg">Education</span>
-                </div>
+                <a
+                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  tabIndex={0}
+                  className="focus:outline-none"
+                  style={{ textDecoration: "none" }}
+                >
+                  <span className="text-2xl font-bold">
+                    Parent 101 : Parenting Tips
+                  </span>
+                </a>
+                <a
+                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  tabIndex={0}
+                  className="focus:outline-none"
+                  style={{ textDecoration: "none" }}
+                >
+                  <div className="flex items-center mt-1">
+                    <span className="text-yellow-500 text-xl ml-1">★</span>
+                    <span className="text-lg">5</span>
+                    <span className="text-lg">(10+)</span>
+                    <span className="mx-2 text-lg">|</span>
+                    <span className="text-lg">Education</span>
+                  </div>
+                </a>
               </div>
             </div>
             {/* Get App Button */}
@@ -567,13 +690,12 @@ function App() {
             <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
               <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
                 {[
-                  { src: lek1, alt: "Feature 1" },
-                  { src: lek2, alt: "Feature 2" },
-                  { src: lek3, alt: "Feature 3" },
-                  { src: lek4, alt: "Feature 4" },
-                  { src: lek5, alt: "Feature 5" },
-                  { src: lek6, alt: "Feature 6" },
-                  { src: lek7, alt: "Feature 7" },
+                  { src: parent1, alt: "Feature 1" },
+                  { src: parent2, alt: "Feature 2" },
+                  { src: parent3, alt: "Feature 3" },
+                  { src: parent4, alt: "Feature 4" },
+                  { src: parent5, alt: "Feature 5" },
+                  { src: parent6, alt: "Feature 6" },
                   // Add more images here as needed
                 ].map((img, idx) => (
                   <div
@@ -627,26 +749,50 @@ function App() {
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
                 {/* #6 */}
-                <span className="text-2xl font-bold underline">#6</span>
+                <span className="text-2xl font-bold">#6</span>
                 {/* App Icon */}
-                <img
-                  src={screen1}
-                  alt="Panoslice App Icon"
-                  className="w-16 h-16 rounded-2xl border border-gray-300"
-                />
+                <a
+                  href="https://apps.apple.com/app/tawk2-relationship-cards/id6738306118"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                >
+                  <img
+                    src={tawk_icon}
+                    alt="Tawk2 App Icon"
+                    className="w-16 h-16 rounded-2xl border border-gray-300"
+                  />
+                </a>
               </div>
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
-                <span className="text-2xl font-bold underline">
-                  Tawk2 : Relationship cards
-                </span>
-                <div className="flex items-center mt-1">
+                <a
+                  href="https://apps.apple.com/app/tawk2-relationship-cards/id6738306118"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                  style={{ textDecoration: "none" }}
+                >
+                  <span className="text-2xl font-bold">
+                    Tawk2 : Relationship cards
+                  </span>
+                </a>
+                <a
+                  href="https://apps.apple.com/app/tawk2-relationship-cards/id6738306118"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center mt-1 focus:outline-none"
+                  tabIndex={0}
+                  style={{ textDecoration: "none" }}
+                >
                   <span className="text-yellow-500 text-xl ml-1">★</span>
                   <span className="text-lg">5</span>
                   <span className="text-lg">(10+)</span>
                   <span className="mx-2 text-lg">|</span>
                   <span className="text-lg">Entertainment</span>
-                </div>
+                </a>
               </div>
             </div>
             {/* Get App Button */}
@@ -723,26 +869,50 @@ function App() {
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
                 {/* #7 */}
-                <span className="text-2xl font-bold underline">#7</span>
+                <span className="text-2xl font-bold">#7</span>
                 {/* App Icon */}
-                <img
-                  src={screen1}
-                  alt="Panoslice App Icon"
-                  className="w-16 h-16 rounded-2xl border border-gray-300"
-                />
+                <a
+                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                >
+                  <img
+                    src={lek_icon}
+                    alt="Lek App Icon"
+                    className="w-16 h-16 rounded-2xl border border-gray-300"
+                  />
+                </a>
               </div>
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
-                <span className="text-2xl font-bold underline">
-                  Grow your Linkedin : Lek AI
-                </span>
-                <div className="flex items-center mt-1">
+                <a
+                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="focus:outline-none"
+                  tabIndex={0}
+                  style={{ textDecoration: "none" }}
+                >
+                  <span className="text-2xl font-bold">
+                    Grow your Linkedin : Lek AI
+                  </span>
+                </a>
+                <a
+                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center mt-1 focus:outline-none"
+                  tabIndex={0}
+                  style={{ textDecoration: "none" }}
+                >
                   <span className="text-yellow-500 text-xl ml-1">★</span>
                   <span className="text-lg">4.2</span>
                   <span className="text-lg">(10+)</span>
                   <span className="mx-2 text-lg">|</span>
                   <span className="text-lg">Productivity</span>
-                </div>
+                </a>
               </div>
             </div>
             {/* Get App Button */}
@@ -818,32 +988,8 @@ function App() {
       <footer className="w-full py-8 border-t border-gray-200 bg-black text-center text-gray-200 text-sm">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 px-4">
           <div>
-            &copy; {new Date().getFullYear()} Trending iPhone Apps. All rights
+            &copy; {new Date().getFullYear()} Best iPhone Apps. All rights
             reserved.
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <a
-              href="https://twitter.com/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              Twitter
-            </a>
-            <a
-              href="mailto:hello@trendingiphoneapps.com"
-              className="hover:underline"
-            >
-              Contact
-            </a>
-            <a
-              href="https://www.producthunt.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline"
-            >
-              Product Hunt
-            </a>
           </div>
         </div>
       </footer>
