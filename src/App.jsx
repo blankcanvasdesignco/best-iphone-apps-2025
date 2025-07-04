@@ -103,7 +103,7 @@ function App() {
                 {
                   src: screen5,
                   alt: "Feature 5",
-                  link: "https://apps.apple.com/app/parent-101-parenting-tips/id6737198424",
+                  link: "https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680",
                 },
                 {
                   src: screen6,
@@ -113,7 +113,7 @@ function App() {
                 {
                   src: screen7,
                   alt: "Feature 7",
-                  link: "https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680",
+                  link: "https://apps.apple.com/app/parent-101-parenting-tips/id6737198424",
                 },
                 // Add more images here as needed
               ].map((img, idx) => (
@@ -626,20 +626,19 @@ function App() {
           <div className="flex flex-col md:flex-row items-center justify-between py-8 gap-6 md:gap-8">
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
-                {/* #5 */}
+                {/* #7 */}
                 <span className="text-2xl font-bold">#5</span>
                 {/* App Icon */}
                 <a
-                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
+                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
                   target="_blank"
                   rel="noopener noreferrer"
-                  tabIndex={0}
                   className="focus:outline-none"
-                  style={{ textDecoration: "none" }}
+                  tabIndex={0}
                 >
                   <img
-                    src={parent_icon}
-                    alt="Parent 101 App Icon"
+                    src={lek_icon}
+                    alt="Lek App Icon"
                     className="w-16 h-16 rounded-2xl border border-gray-300"
                   />
                 </a>
@@ -647,38 +646,36 @@ function App() {
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
                 <a
-                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
+                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
                   target="_blank"
                   rel="noopener noreferrer"
-                  tabIndex={0}
                   className="focus:outline-none"
+                  tabIndex={0}
                   style={{ textDecoration: "none" }}
                 >
                   <span className="text-2xl font-bold">
-                    Parent 101 : Parenting Tips
+                    Grow your Linkedin : Lek AI
                   </span>
                 </a>
                 <a
-                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
+                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="flex items-center mt-1 focus:outline-none"
                   tabIndex={0}
-                  className="focus:outline-none"
                   style={{ textDecoration: "none" }}
                 >
-                  <div className="flex items-center mt-1">
-                    <span className="text-yellow-500 text-xl ml-1">★</span>
-                    <span className="text-lg">5</span>
-                    <span className="text-lg">(10+)</span>
-                    <span className="mx-2 text-lg">|</span>
-                    <span className="text-lg">Education</span>
-                  </div>
+                  <span className="text-yellow-500 text-xl ml-1">★</span>
+                  <span className="text-lg">4.2</span>
+                  <span className="text-lg">(10+)</span>
+                  <span className="mx-2 text-lg">|</span>
+                  <span className="text-lg">Productivity</span>
                 </a>
               </div>
             </div>
             {/* Get App Button */}
             <a
-              href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
+              href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
@@ -691,12 +688,13 @@ function App() {
             <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
               <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
                 {[
-                  { src: parent1, alt: "Feature 1" },
-                  { src: parent2, alt: "Feature 2" },
-                  { src: parent3, alt: "Feature 3" },
-                  { src: parent4, alt: "Feature 4" },
-                  { src: parent5, alt: "Feature 5" },
-                  { src: parent6, alt: "Feature 6" },
+                  { src: lek1, alt: "Feature 1" },
+                  { src: lek2, alt: "Feature 2" },
+                  { src: lek3, alt: "Feature 3" },
+                  { src: lek4, alt: "Feature 4" },
+                  { src: lek5, alt: "Feature 5" },
+                  { src: lek6, alt: "Feature 6" },
+                  { src: lek7, alt: "Feature 7" },
                   // Add more images here as needed
                 ].map((img, idx) => (
                   <div
@@ -721,16 +719,17 @@ function App() {
           </div>
 
           <p>
-            Parenting is full of challenges, whether it’s managing mealtime,
-            supporting your child’s emotional regulation, or planning routines
-            that promote growth and confidence. Many parents search for support,
-            structure, and expert advice to help navigate critical milestones
-            like sleep training, breastfeeding, and toddler development.
+            Lek is an AI-powered LinkedIn post writing assistant designed to
+            help entrepreneurs, freelancers, founders, professionals, and
+            startups build personal brands and achieve growth. Whether you're
+            attracting talent, generating leads, looking for a job or
+            establishing thought leadership, Lek empowers you to create engaging
+            LinkedIn content easily.
           </p>
 
           <div className="flex justify-center my-12">
             <a
-              href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
+              href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -741,8 +740,6 @@ function App() {
               />
             </a>
           </div>
-
-          <hr className="mt-8 md:my-12 border-gray-300" />
         </div>
 
         <div>
@@ -869,19 +866,20 @@ function App() {
           <div className="flex flex-col md:flex-row items-center justify-between py-8 gap-6 md:gap-8">
             <div className="flex flex-col md:flex-row items-center gap-4 w-full">
               <div className="flex flex-row items-center gap-4">
-                {/* #7 */}
+                {/* #5 */}
                 <span className="text-2xl font-bold">#7</span>
                 {/* App Icon */}
                 <a
-                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
+                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="focus:outline-none"
                   tabIndex={0}
+                  className="focus:outline-none"
+                  style={{ textDecoration: "none" }}
                 >
                   <img
-                    src={lek_icon}
-                    alt="Lek App Icon"
+                    src={parent_icon}
+                    alt="Parent 101 App Icon"
                     className="w-16 h-16 rounded-2xl border border-gray-300"
                   />
                 </a>
@@ -889,36 +887,38 @@ function App() {
               {/* Title and Ratings */}
               <div className="flex flex-col items-center md:items-start">
                 <a
-                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
+                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="focus:outline-none"
                   tabIndex={0}
+                  className="focus:outline-none"
                   style={{ textDecoration: "none" }}
                 >
                   <span className="text-2xl font-bold">
-                    Grow your Linkedin : Lek AI
+                    Parent 101 : Parenting Tips
                   </span>
                 </a>
                 <a
-                  href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
+                  href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center mt-1 focus:outline-none"
                   tabIndex={0}
+                  className="focus:outline-none"
                   style={{ textDecoration: "none" }}
                 >
-                  <span className="text-yellow-500 text-xl ml-1">★</span>
-                  <span className="text-lg">4.2</span>
-                  <span className="text-lg">(10+)</span>
-                  <span className="mx-2 text-lg">|</span>
-                  <span className="text-lg">Productivity</span>
+                  <div className="flex items-center mt-1">
+                    <span className="text-yellow-500 text-xl ml-1">★</span>
+                    <span className="text-lg">5</span>
+                    <span className="text-lg">(10+)</span>
+                    <span className="mx-2 text-lg">|</span>
+                    <span className="text-lg">Education</span>
+                  </div>
                 </a>
               </div>
             </div>
             {/* Get App Button */}
             <a
-              href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
+              href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 md:mt-0 px-6 py-2 min-w-32 rounded-full border border-gray-500 text-lg inline-block text-center"
@@ -931,13 +931,12 @@ function App() {
             <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
               <div className="flex w-fit p-4 bg-gradient-to-r from-slate-50 via-blue-100 to-emerald-50 border border-black/10 shadow-xl rounded-2xl gap-8 backdrop-blur-md">
                 {[
-                  { src: lek1, alt: "Feature 1" },
-                  { src: lek2, alt: "Feature 2" },
-                  { src: lek3, alt: "Feature 3" },
-                  { src: lek4, alt: "Feature 4" },
-                  { src: lek5, alt: "Feature 5" },
-                  { src: lek6, alt: "Feature 6" },
-                  { src: lek7, alt: "Feature 7" },
+                  { src: parent1, alt: "Feature 1" },
+                  { src: parent2, alt: "Feature 2" },
+                  { src: parent3, alt: "Feature 3" },
+                  { src: parent4, alt: "Feature 4" },
+                  { src: parent5, alt: "Feature 5" },
+                  { src: parent6, alt: "Feature 6" },
                   // Add more images here as needed
                 ].map((img, idx) => (
                   <div
@@ -962,17 +961,16 @@ function App() {
           </div>
 
           <p>
-            Lek is an AI-powered LinkedIn post writing assistant designed to
-            help entrepreneurs, freelancers, founders, professionals, and
-            startups build personal brands and achieve growth. Whether you're
-            attracting talent, generating leads, looking for a job or
-            establishing thought leadership, Lek empowers you to create engaging
-            LinkedIn content easily.
+            Parenting is full of challenges, whether it’s managing mealtime,
+            supporting your child’s emotional regulation, or planning routines
+            that promote growth and confidence. Many parents search for support,
+            structure, and expert advice to help navigate critical milestones
+            like sleep training, breastfeeding, and toddler development.
           </p>
 
           <div className="flex justify-center my-12">
             <a
-              href="https://apps.apple.com/app/grow-your-linkedin-lek-ai/id6702005680"
+              href="https://apps.apple.com/app/parent-101-parenting-tips/id6737198424"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -983,6 +981,8 @@ function App() {
               />
             </a>
           </div>
+
+          <hr className="mt-8 md:my-12 border-gray-300" />
         </div>
       </div>
 
