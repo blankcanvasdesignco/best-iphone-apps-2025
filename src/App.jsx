@@ -55,6 +55,7 @@ import panoslice_icon from "./assets/icons/panoslice_icon.png";
 import swipekit_icon from "./assets/icons/swipekit_icon.png";
 import lono_icon from "./assets/icons/lono_icon.png";
 import rene_icon from "./assets/icons/rene_icon.png";
+import parent_icon from "./assets/icons/parent_icon.png";
 import tawk_icon from "./assets/icons/tawk_icon.png";
 import lek_icon from "./assets/icons/lek_icon.png";
 
@@ -637,7 +638,7 @@ function App() {
                   style={{ textDecoration: "none" }}
                 >
                   <img
-                    src={rene_icon}
+                    src={parent_icon}
                     alt="Parent 101 App Icon"
                     className="w-16 h-16 rounded-2xl border border-gray-300"
                   />
