@@ -60,8 +60,6 @@ import tawk_icon from "./assets/icons/tawk_icon.png";
 import lek_icon from "./assets/icons/lek_icon.png";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div className="min-h-screen bg-white text-black px-4 md:px-16 py-8">
@@ -69,6 +67,15 @@ function App() {
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
           BEST IPHONE APPS 2025
         </h1>
+
+        <p className="text-lg md:text-xl text-center text-gray-700 max-w-4xl mx-auto mb-12 md:mb-16 leading-relaxed">
+          Looking for the best iPhone apps of 2025? This site is a hand-curated
+          collection of iOS apps that are fast, aesthetic, and actually useful.
+          From minimalist photo editors like Rene to powerful note-taking tools
+          and productivity gems — this list is for creators, tech lovers, and
+          anyone tired of cluttered app stores. No ads. No fluff. Just clean,
+          beautiful iPhone apps that work.
+        </p>
 
         {/* Preview Gallery */}
 
