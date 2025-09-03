@@ -3,10 +3,12 @@ import HomePage from "./pages/HomePage";
 import Blogs from "./pages/Blogs";
 import Blog from "./pages/Blog";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen font-sans">
         <Navbar />
         <Routes>
